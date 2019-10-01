@@ -1,4 +1,4 @@
-package com.vega.springit;
+package com.mzoz.springit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

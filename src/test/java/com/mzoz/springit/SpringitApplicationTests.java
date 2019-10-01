@@ -1,4 +1,4 @@
-package com.vega.springit;
+package com.mzoz.springit;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

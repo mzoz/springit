@@ -1,4 +1,4 @@
-package com.vega.springit.domain;
+package com.mzoz.springit.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
