@@ -26,4 +26,15 @@ public class Link {
 
     @OneToMany(mappedBy = "link")
     private List<Comment> comments = new ArrayList<>();
+
+    @OneToMany(mappedBy = "link")
+    private List<Vote> votes = new ArrayList<>();
+
+    public void addComment(Comment comment) {
+        this.comments.add(comment);
+    }
+
+    public void addVote(Vote vote) {
+        this.votes.add(vote);
+    }
 }
